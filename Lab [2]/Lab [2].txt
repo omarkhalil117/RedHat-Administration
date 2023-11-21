@@ -1,0 +1,32 @@
+1- adduser -c "Islam Askar" -md /home/islam islam
+   tail -1 /etc/passwd
+
+   passwd islam
+   islam
+
+2- adduser -c "Bad User" -md /home/baduser baduser
+   tail -1 /etc/passwd
+
+   passwd baduser
+   baduser
+
+3- sudo groupadd -g 30000 pgroup
+   tail -1 /etc/group
+
+4- sudo groupadd badgroup
+   tail -1 /etc/group
+
+5- sudo usermod -G pgroup islam
+   tail -1 /etc/group
+
+6- sudo passwd islam 
+   password
+
+7- sudo chage -m 30 islam
+
+8- sudo passwd -l baduser
+
+9- sudo userdel baduser
+
+10- sudo groupdel badgroup
+
