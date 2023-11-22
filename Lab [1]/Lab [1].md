@@ -7,7 +7,9 @@
 ##### 
 
 ## 3- What is the difference between ***rm*** and ***rmdir*** ?
-##### 
+##### rmdir : Removes empty directory
+##### rm : Removes directory with his children files and directories using -r. 
+
 
 ## 4- Create the following hierarchy under your home directory?
 ![Q4](./Pics/4.png)
@@ -36,5 +38,16 @@ cd ../../home
 9- head -4 /etc/passwd
 10- tail -7 /etc/passwd
 ![Q7](./Pics/8,9,10.png)
+
+# 11 - Display the man pages of passwd the command and the file sequentially in one command.
+![Q11](./Pics/11.png)
+
+# 12 - Display the man page of the passwd file.
+![Q11](./Pics/12.png)
+
+# 13 - Display a list of all the commands that contain the keyword passwd in their man page.
+![Q11](./Pics/.png)
+
+
 
 
