@@ -4,7 +4,8 @@
 ##### Done !
 
 ## 2- What is the difference between ***cat*** and ***more*** ?
-##### 
+##### more : The more command displays the contents of the file one screen at a time for large files
+##### cat : It displays the contents of the file specified on to the output terminal.
 
 ## 3- What is the difference between ***rm*** and ***rmdir*** ?
 ##### rmdir : Removes empty directory
