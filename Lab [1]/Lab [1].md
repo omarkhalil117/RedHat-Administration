@@ -8,7 +8,7 @@
 
 ## 3- What is the difference between ***rm*** and ***rmdir*** ?
 ##### rmdir : Removes empty directory
-##### rm : Removes directory with his children files and directories using -r. 
+##### rm : Removes files or directories. 
 ![Q3](./Pics/3.1.png)
 ![Q3](./Pics/3.2.png)
 
