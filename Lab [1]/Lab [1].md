@@ -9,7 +9,8 @@
 ## 3- What is the difference between ***rm*** and ***rmdir*** ?
 ##### rmdir : Removes empty directory
 ##### rm : Removes directory with his children files and directories using -r. 
-
+![Q3](./Pics/3.1.png)
+![Q3](./Pics/3.2.png)
 
 ## 4- Create the following hierarchy under your home directory?
 ![Q4](./Pics/4.png)
@@ -43,10 +44,11 @@ cd ../../home
 ![Q11](./Pics/11.png)
 
 # 12 - Display the man page of the passwd file.
-![Q11](./Pics/12.png)
+![Q12](./Pics/12.png)
 
 # 13 - Display a list of all the commands that contain the keyword passwd in their man page.
-![Q11](./Pics/.png)
+![Q13](./Pics/13.png)
+![Q13](./Pics/13.1.png)
 
 
 
