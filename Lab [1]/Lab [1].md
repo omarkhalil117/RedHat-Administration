@@ -10,8 +10,8 @@
 ##### 
 
 ## 4- Create the following hierarchy under your home directory?
-![Q4](/Pics/4.png)
-![Q4](/Pics/4.1.png)
-![Q4](/Pics/4.2.png)
+![Q4](./Pics/4.png)
+![Q4](./Pics/4.1.png)
+![Q4](./Pics/4.2.png)
 
 
