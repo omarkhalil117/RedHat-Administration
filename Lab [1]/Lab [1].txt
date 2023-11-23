@@ -1,0 +1,33 @@
+4 -
+mkdir -p /dir1/dir{11..12}/file1
+mkdir /docs/mycv
+
+a- rmdir dir11  (Error) (state what happend)
+   rmdir -p 11  
+
+b- rmdir -p dir12  (in home dir and state what happens)
+
+c- /home/user/doc/mycv
+
+5- cp ~/etc/passwd ~/mypasswd
+
+6- cp ~/mypasswd ~/odlpasswd
+
+7- cd ~
+   cd 
+   cd /home
+   cd ../../home
+
+8- cd /usr/bin 
+   ls w*
+
+9- head -4 /etc/passwd
+
+10- tail -7 /etc/passwd
+
+11- man -s passwd
+
+12- man passwd
+
+13- man -k passwd
+
