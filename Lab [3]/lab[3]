@@ -1,0 +1,32 @@
+2) a)j -> go up
+ 
+    b) k -> go down
+    
+    c) /Age
+    
+    d) :5 or 5G
+
+    e) :3,5d
+    
+    f) A    
+
+
+3)  env or printenv
+
+4)  cat /etc/shell
+
+5)  cat /bin/bashbug
+
+6)  echo $[var name]
+
+7) echo $SHELL
+   
+8)
+
+9) PS1="\u Time= \t : \w"
+
+10) Allows us to write seperate line to print 
+
+    PS2=":"
+
+11) alias ll='ls -l ‘
