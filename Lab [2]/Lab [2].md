@@ -53,6 +53,39 @@ baduser
 ![Q9-10](./Pics/9,10.png)
 
 
+## 13. Create a folder called myteam in your home directory and change its permissions to read only for the owner.
+![Q13](./Pics/13.png)
+
+## 14. Log out and log in by another user
+## 15. Try to access (by cd command) the folder (myteam)
+![Q14-15](./Pics/14,15.png)
+
+
+## 16- Using the command Line
+### - Change the permissions of oldpasswd file to give owner read and write
+### permissions and for group write and execute and execute only for the others
+### (using chmod in 2 different ways)
+### - Change your default permissions to be as above.
+### - What is the maximum permission a file can have, by default when it is just
+### created? And what is that for directory.
+### - Change your default permissions to be no permission to everyone then create a
+### directory and a file to verify.
+![Q16](./Pics/16.1.png)
+![Q16](./Pics/16.2.png)
+
+
+## 18. Create a file with permission 444. Try to edit in it and to remove it? Note what happened.
+![Q18](./Pics/18.1.png)
+![Q18](./Pics/18.2.png)
+
+## 19. What is the difference between the “x” permission for a file and for a directory?
+### File : it's a permission to execute a file that does scripts
+### Directory : it's a permission to enter directory and use command cd on it
+
+
+
+
+
 
 
 
