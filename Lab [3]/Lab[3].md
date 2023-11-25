@@ -49,7 +49,7 @@ logged-in initialization file: ~/.profile
 
 additional logged initialization file for ksh: ~/.kshrc
 
-bash:
+- bash:
 
 global configuration files:
 
