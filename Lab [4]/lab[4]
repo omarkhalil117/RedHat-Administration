@@ -35,7 +35,10 @@
     ctrl+z
     kill -CONT %1
     jobs
-    
+16)
+   ps -u omar
+17)
+   ps -aux | pgrep -v omar
 18) 
    pgrep -u omar
    
