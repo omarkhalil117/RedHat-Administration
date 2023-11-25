@@ -35,6 +35,33 @@
 ![Q7](./Pics/7.png)
 
 # 8. State the initialization files of: sh, ksh, bash.
+- sh:
+
+global initialization file: /etc/profile
+
+Logged-in initialization file: ~/.profile
+
+- ksh:
+
+global initialization file: /etc/profile
+
+logged-in initialization file: ~/.profile
+
+additional logged initialization file for ksh: ~/.kshrc
+
+bash:
+
+global configuration files:
+
+/etc/profile
+
+/etc/bashrc (non-login shells)
+
+logged in user configuration files:
+
+~/.bash_profile, ~/.bash_login, or ~/.profile
+
+~/.bashrc (non-login shells)
 
 # 9. Edit in your profile to display date at login and change your prompt permanently.
 ![Q9].1(./Pics/9.1.png)
