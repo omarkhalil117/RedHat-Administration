@@ -58,9 +58,11 @@ jobs
 
 
 # 16.Display your processes only
+ps -u omar
 ![Q1](./Pics/16.png)
 
 # 17.Display all processes except yours
+ps -aux | pgrep -v omar
 ![Q1](./Pics/17.png)
 
 # 18.Use the pgrep command to list your processes only
