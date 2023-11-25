@@ -1,0 +1,45 @@
+1 )
+  ls /usr/bin > /tmp/commands.list
+
+2) 
+  cat /tmp/commands.list | wc -l
+  
+3) 
+  cat /etc/passwd | grep ^g
+  
+4)
+  cut -f1,5 -d: /etc/passwd | grep ^g
+  
+5) 
+  sort -t : -k5 /etc/passwd | cut -f1,5 -d: /etc/passwd | grep ^g > ~/file
+
+6)
+  sudo ls -r | find / -name .bash_profile > ~/file 2>~/error.file &
+  
+7)
+  ps -u
+  
+8) 
+  head /etc/passwd | tail -3
+
+9) 
+  1 - cat ~/file1 | cat ~/file2
+      prints file2 content only
+  2-  ls | rm
+      Error 
+  3- ls /etc/passwd | wc -l
+     prints 1 as passwd is already a file not directory and line count of the result in first command is 1
+     
+10 - 15)
+    sleep 100
+    ctrl+z
+    kill -CONT %1
+    jobs
+    
+18) 
+   pgrep -u omar
+   
+19)
+   pkill -U 1000
+
+    
