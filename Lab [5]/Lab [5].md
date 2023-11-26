@@ -60,8 +60,9 @@
 ![Q10](./10.2.png)
 ![Q10](./10.3.png)
 ## 11. Create a symbolic link of /etc/passwd in /boot.
-  can't create hard link as the directories are in different partitions.
+  
 ![Q11](./11.1.png)
-![Q11](./11.2.png)
 
 ## 12. Create a hard link of /etc/passwd in /boot. Could you? Why?
+can't create hard link as the directories are in different partitions.
+![Q11](./11.2.png)
