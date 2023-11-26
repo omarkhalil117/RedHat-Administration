@@ -73,7 +73,31 @@ baduser
 ![Q16](./Pics/16.1.png)
 ![Q16](./Pics/16.2.png)
 
+## 17. What are the minimum permission needed for:
+- Copy a directory (permission for source directory and permissions for target parent directory)
+ for src directory: x
+ for dest parent directory: w , x
 
+- Copy a file (permission for source file and and permission for target parent directory)
+ for src file: r
+ for dest parent directory: w , x
+
+- Delete a file
+ for the file: ---
+ for src parent directory: w , x
+	
+- Change to a directory
+for target directory: x
+	
+- List a directory content (ls command)
+ r 
+
+- View a file content (more/cat command)
+ r
+
+- Modify a file content
+  w
+ 
 ## 18. Create a file with permission 444. Try to edit in it and to remove it? Note what happened.
 ![Q18](./Pics/18.1.png)
 ![Q18](./Pics/18.2.png)
