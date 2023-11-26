@@ -1,0 +1,59 @@
+1) 
+  - compress:
+    compress -v filee
+    uncompress -v filee
+    
+  - gzip:
+    gzip -v filee
+    gunzip -v filee.gz
+    
+  - zip
+    zip -v zfile.zip filee file1 
+    unzip zfile.zip
+    
+2) 
+   zcat filee.Z
+   unzip -l zfile.zip
+   
+3)
+  sudo tar -cvf atchive.tar /etc
+ 
+4) 
+   find ./ -mtime -2
+
+5) 
+   find -user omar
+   
+6)
+   find / 
+   or 
+   locate /
+   
+7)
+  locate .profile
+
+8)
+  file /etc/passwd
+  file /dev/pts/0
+  file /etc
+  file /dev/sda
+  
+9)
+  ls -i /
+  ls -i /etc
+  ls -i /etc/hosts
+
+10)
+  ls -s /etc/passwd /boot/passlink
+
+11) 
+  ln /etc/passwd /boot
+  can't create hard link as the directories are in different partitions
+  
+  
+  
+  
+ 
+  
+  
+    
